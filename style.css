@@ -1,0 +1,409 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+body{
+    background: #000;
+    color: white;
+}
+
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(back.png);
+    width: 100%;
+    height: 95vh;
+    position: relative;
+    background-position: center center;
+    /* background-size: (2000px 000px); */
+    padding: 12px 8%;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 148px;
+    margin-top: 12px;
+    margin-left: 51px;
+}
+
+
+.language{
+    padding: 4px 32px;
+    background-color: transparent;
+    border: 0.5px solid white;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.sign-up{
+    background-color: #E50914;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 110px;
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+.sign-up:hover{
+    background-color: #a0171e;
+}
+
+.content{
+    align-items: center;
+    justify-content: center;
+    padding: 6.6rem 0 4rem;
+    /* box-sizing: border-box; */
+    margin: 110px 155px;
+    text-align: center;
+    /* width: 60%; */
+    margin-bottom: 20px;
+}
+
+.content h1{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.content h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 17px;
+}
+
+.content p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.email input{
+    padding: 16px 1% 14px 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: transparent;
+    border: 2px solid #393B3C;
+    border-radius: 5px;
+    text-align: start;
+    width: 38%;
+    margin-top: 6px;    
+    margin-right: 6px;
+}
+
+.get:hover{
+    background-color: #C11119;
+}
+
+
+
+.get{
+    background-color: #E50914;
+    padding: 15px 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.divider{
+    height: 8px;
+    background-color: #232323; 
+    margin: 0;
+}
+
+
+
+/* -----------------------2------------------ */
+
+
+.next{
+    padding: 10px 0px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0px 120px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.col-1{
+    margin-bottom: 20px;
+    gap: 10px;
+    padding-left: 30px;
+    
+}
+
+.col-1 h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.col-1 p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.img-col img{
+    width: 98%;
+    height: auto;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+
+.img-col{
+    position: relative;
+}
+
+.img-col video{
+    position: absolute;
+    right: 99px;
+    z-index: -1;
+    top: 94px;
+    width: 70%;
+}
+
+.img-col-2{
+    position: relative;
+    width: 73%;
+}
+
+.img-col-2 img{
+    width: 100%;
+}
+
+.things{
+    position: absolute;
+    display: flex;
+    left: 140px;
+    align-items: center;
+    background-color: black;
+    border: 2px solid #5A5A5A;
+    width: 55%;
+    border-radius: 10px;
+    top: 300px;
+}
+.things img{
+    width: 55px;
+    margin: 8px;
+}
+
+.things div{
+    margin-left: 10px;
+}
+
+.things svg{
+    width: 110px;
+    
+}
+
+.img-col-3 video{
+    position: absolute;
+    top: 90px;
+    right: 112px;
+    z-index: -1;
+    width: 33%;
+}
+
+
+.img-col-4 img{
+    outline: none;
+}
+
+.img-col-4:focus img{
+    outline: none;
+}
+
+
+/* ------------------faq----------------- */
+
+
+
+
+
+.faq-main{
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 40px 200px;
+    margin-bottom: 90px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+    font-weight: 900;
+}
+.faq {
+    background-color: #333;
+    /* border-radius: 5px; */
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 15px;
+}
+.question {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.answer {
+    display: none;
+    padding: 15px;
+    background-color: #444;
+}
+
+
+/* -------------------------------------------------------- */
+
+.para{
+    align-items: center;
+    text-align: center;
+    margin-top: 32px;
+    font-size: 20px;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 81px;
+}
+
+.emails{
+    padding: 10px;
+    font-size: 24px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #1c1c1c;
+    color: #fff;
+    outline: none;
+    width: 35%;
+}
+
+.get-button {
+    padding: 10px 40px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.get-button:hover {
+    background-color: #f6121d;
+}
+
+
+
+/* footer-------------------------------------- */
+
+
+
+
+.footer {
+    margin: 120px 72px;
+    padding: 0px 48px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.call {
+    margin-bottom: 20px;
+}
+
+.call a {
+    color: #999;
+    text-decoration: none;
+}
+
+.call a:hover {
+    text-decoration: underline;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.column {
+    width: 22%;
+    min-width: 150px;
+}
+
+.column a {
+    display: block;
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.column a:hover {
+    text-decoration: underline;
+}
+
+.flanguage {
+    margin-bottom: 20px;
+}
+
+.language-button {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.language-button:hover {
+    background-color: #444;
+}
+
+.country {
+    margin-top: 10px;
+    color: #666;
+}
